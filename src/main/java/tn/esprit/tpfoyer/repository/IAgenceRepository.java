@@ -5,5 +5,5 @@ import org.springframework.data.jpa.repository.JpaRepository;
 import tn.esprit.tpfoyer.domain.Agence;
 
 public interface IAgenceRepository
-        extends JpaRepository<Agence, Long> {
+        extends JpaRepository<Agence, Long> {      //long : type de l'id
 }
